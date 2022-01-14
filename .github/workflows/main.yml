@@ -20,6 +20,7 @@ jobs:
       - name: Run a multi-line script
         run: curl -O result.html wttr.in/Beijing
       - name: 'Send mail'
+        uses: dawidd6/action-send-mail@master
         with:
           server_address: smtp.qq.com
           server_port: 465
