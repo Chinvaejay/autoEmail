@@ -20,14 +20,14 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: >- 
-           curl -o result.html 'https://ggme.xyz/reactive' \
+           curl -o result.html 'https://okgg.xyz/reactive' \
               -H 'accept: application/json, text/javascript, */*; q=0.01' \
               -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
               --data-raw 'email=923983844%40qq.com' \
               --compressed
       - name: Run a multi-line script
         run: >- 
-           curl -o result.html 'https://ggme.xyz/reactive' \
+           curl -o result.html 'https://okgg.xyz/reactive' \
               -H 'accept: application/json, text/javascript, */*; q=0.01' \
               -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
               --data-raw 'email=qin%40pzhu.edu.cn' \
