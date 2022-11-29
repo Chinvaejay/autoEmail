@@ -48,7 +48,6 @@ jobs:
               --data-raw 'email=qin%40sc.edu.cn' \
               --compressed
 
-
       - name: 'Send mail'
         uses: dawidd6/action-send-mail@master
         with:
