@@ -20,31 +20,24 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: >- 
-           curl -o result.html 'https://okgg.top/reactive' \
-              -H 'accept: application/json, text/javascript, */*; q=0.01' \
-              -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
-              --data-raw 'email=923983844%40qq.com' \
-              --compressed
-      - name: Run a multi-line script
-        run: >- 
-           curl -o result.html 'https://okgg.top/reactive' \
-              -H 'accept: application/json, text/javascript, */*; q=0.01' \
-              -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
-              --data-raw 'email=qin%40pzhu.edu.cn' \
-              --compressed
-      - name: Run a multi-line script
-        run: >- 
-           curl -o result.html 'https://okgg.top/reactive' \
-              -H 'accept: application/json, text/javascript, */*; q=0.01' \
-              -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
-              --data-raw 'email=qin%40cd.edu.cn' \
-              --compressed
-
-      - name: Run a multi-line script
-        run: >- 
-           curl -o result.html 'https://okgg.top/reactive' \
-              -H 'accept: application/json, text/javascript, */*; q=0.01' \
-              -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+           curl 'https://51.159.194.250/reactive?__cpo=aHR0cHM6Ly9va2dnLnRvcA' \
+              -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+              -H 'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8' \
+              -H 'Cache-Control: no-cache' \
+              -H 'Connection: keep-alive' \
+              -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+              -H 'Cookie: __cpc=RXFOUlV0ZjFxdHg5L1VGd1ZrazRKZm5iR3ZOZ1ZobVlPVHpTcWRGdnJBbXIvL0haTGxoWTFsQU5VZCtmUlNGbi81aG1YN2FQdDA2cVdGeTVWak1RL0t0WUoyYVpsZUlhNW50ZnJDcmlsSlZQZHBIWXRuVm84eUVMWlNvTldrWS8rcUFyb1pjWVkyMzFhSXdhYTJtc0gvelhHOWVlaGVpWGwzYXJPTjFMbkk1ZXlxV1JuTldiUy9HbGtacjJiS2duMklOM0xjV1NOS2JaOWR5emdmS1lKc0hOWHdPSFo3aUxGV3lZaVNHeDJQZys4VWRYLzJqTURRYTJMMTc4aFBrTzNTM3FLUzhmYlgxZWk0UklJKzQ5N0hFa2pIS1EvNVNwUDdkSGlTNW9DQS9vT0ptT0p1YUtnMmQ3UjB5dFJZTGhjOVlYeFo5cjRrN3J0NUdreEcxM1BCcU1mUS96VkpLWmxyN2lHNE9yTTMwNWNUVjJLQ1RxM2l0bTVSeVFocUVFVkhPTEd2ZklUTW5aeXMvWTVGbXRFZ2lZNFVGNHVqZGhlclM4WEZTczRsbUxxNDB3ck5HaGJ6VTkzV244SXVQSg==; __cpcPopShown=1; cf_clearance@okgg.top=Raz48BObldoJjxVt_BWcFDDiEjVJlrSiKLrPZqgP_R8-1683530977-0-250; stel_ssid@oauth.telegram.org=ab8b72a66c61559777_11452726483190974563; uid@okgg.top=723007; email@okgg.top=qin%40sc.edu.cn; key@okgg.top=df64345de1c6d2deb46d9862e462965d6824c995cfb68; ip@okgg.top=aa14f808cacac5be185a6cc4c66ef8c4; expire_in@okgg.top=1683617412; __cpcStatSampleNum=10' \
+              -H 'Origin: https://51.159.194.250' \
+              -H 'Pragma: no-cache' \
+              -H 'Referer: https://51.159.194.250/user/shop?__cpo=aHR0cHM6Ly9va2dnLnRvcA' \
+              -H 'Sec-Fetch-Dest: empty' \
+              -H 'Sec-Fetch-Mode: cors' \
+              -H 'Sec-Fetch-Site: same-origin' \
+              -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36' \
+              -H 'X-Requested-With: XMLHttpRequest' \
+              -H 'sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+              -H 'sec-ch-ua-mobile: ?0' \
+              -H 'sec-ch-ua-platform: "macOS"' \
               --data-raw 'email=qin%40sc.edu.cn' \
               --compressed
 
